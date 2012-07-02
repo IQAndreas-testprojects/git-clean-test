@@ -13,6 +13,9 @@ else
 	rm -f untracked-file
 	
 	# Add new files
-    cp -r reset-files/test$1/* .
+    cp -r reset-files/test$1/* ignore
+    cp untracked-file .
+    cp test$1.gitignore .gitignore
+    
 
 fi
