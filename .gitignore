@@ -1,4 +1,3 @@
-ignored
-
-ignored/no-wildcard
+ignored/no-forwardslash
+ignored/no-wildcard/
 ignored/wildcard/*
